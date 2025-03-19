@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ub-manage-server
+  datasource:
+    url: jdbc:mysql://160.202.247.160:3306/ub-manage?characterEncoding=utf8&autoReconnect=true&autoReconnectForPools=true&connectTimeout=0&useSSL=false&allowMultiQueries=true&rewriteBatchedStatements=true
+    username: file
+    password: HWYNzrAX5TMScKci
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+  port: 8080
+
